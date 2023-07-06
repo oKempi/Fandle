@@ -2,6 +2,10 @@
 File handling library for python
 
 ## Commands: 
+### **print(Fandle.Version)** 
+
+- prints out the current version of the library
+
 ### **write_list** (arguments: list, file (variable that opens the file), spaces (True/False)
 
 - If you specify that: "*spaces* == **True**" the command writes the list with spaces
