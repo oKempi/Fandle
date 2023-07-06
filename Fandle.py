@@ -1,4 +1,4 @@
-#Version 0.1
+#Version 0.2
 
 def write_list(list, fileVariable, spaces):
     if spaces == True:
@@ -20,3 +20,11 @@ def write_set(set, fileVariable, spaces):
         fileVariable.writelines(set)
     else:
         fileVariable.writelines(set)
+
+def sort(constant):
+    constant.sort()
+
+def findIn_dict(dict, keyword):
+    def keyw(e):
+        return e[keyword]
+    dict.sort(key = keyw)
