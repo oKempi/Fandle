@@ -20,11 +20,9 @@ File handling library for python
 
 - Takes your pre-defined arguments and uses them to write them into a file
 
-### **sort** (arguments: constant, spaces)
+### **sort** (arguments: constant)
 
 - (You can use list with dicts in it)
-
-- If you specify that: "*spaces* == **True**" the command sorts it with spaces
 
 ### **findIn_dict** (arguments: dict/list (of dicts), keyword)
 
