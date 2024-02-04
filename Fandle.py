@@ -22,8 +22,8 @@ def write_set(set:set, fileVariable, spaces:bool):
     else:
         fileVariable.writelines(set)
 
-def sort(constant):
-    constant.sort()
+def sort(set):
+    set.sort()
 
 #def findIn_dict(dict, keyword):
 #    def keyw(e):
@@ -35,6 +35,7 @@ def check_write(data: str | int | float | set | range | tuple | list):
         open("testFandle.txt", "a").writelines(data)
     except:
         print("The data you have entered can not be writen... There is something wrong")
+        os.remove("testFandle.txt")
     else: 
         os.remove("testFandle.txt")
         print("Test was successful! This data can be written into a file")
