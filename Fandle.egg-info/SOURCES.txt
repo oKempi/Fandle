@@ -1,0 +1,5 @@
+setup.py
+Fandle.egg-info/PKG-INFO
+Fandle.egg-info/SOURCES.txt
+Fandle.egg-info/dependency_links.txt
+Fandle.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Fandle
+Version: 0.4.0
+Summary: File handling module
+Author: Jakub Kvapil
+Author-email: toustovac.cz@gmail.com
+Project-URL: GitHub page, https://github.com/oKempi/Fandle
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
